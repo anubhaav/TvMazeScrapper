@@ -31,4 +31,15 @@ I have included SqLite database with scrapped data of 5 pages from TvMaze Scrapp
 * To Get List of Shows with Range of Show Id: BasicUrl/api/Show/GetShowCastList/{FromId}/{ToId}/{PageNumber}/{PerPage}
   * If FromId, ToId are not given then by default it is 1, and 250 respectively. 
   * If PageNumber, and PerPage is not given then by default it is 1 and 10 respectively.
-  
+
+### Also want to state that Cast response can contain duplicate Casts and Birthdays can be null, so already handled that.
+
+## Images (Used PostMan, but Pretty JSON was not used as it was overflowing from Screen)
+* Starting Scrapping 
+![Starting Scrapping](https://docs.google.com/uc?id=1fA9jmrrvPnNGG5acsyIstLC9izWj93oZ)
+
+* Get a Single Show
+![Get a Single Show](https://docs.google.com/uc?id=10UyWljKaSGVCNDnvu5gfVPpXf1RcetNo)
+
+* Get List of Shows with Range
+![Get List of Shows with Range](https://docs.google.com/uc?id=1A478sWU4Uw7WE8Dq1C2k1W3YG9O74r-L)

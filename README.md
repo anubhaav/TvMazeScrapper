@@ -32,7 +32,3 @@ I have included SqLite database with scrapped data of 5 pages from TvMaze Scrapp
   * If FromId, ToId are not given then by default it is 1, and 250 respectively. 
   * If PageNumber, and PerPage is not given then by default it is 1 and 10 respectively.
   
-
-## More functionalities can be added:
-
-* Cancellation token for Scrapping Api, as for simplicity we can just stop `dotnet` server to stop any further process.

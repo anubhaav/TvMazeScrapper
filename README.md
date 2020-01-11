@@ -1,4 +1,5 @@
 # TvMazeScrapper
+#### By Shalabh Sharma (For Task)
 
 ## Steps to run the project:
 * Run `dotnet restore`
